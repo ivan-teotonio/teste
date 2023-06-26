@@ -6,8 +6,15 @@ use App\Http\Controllers\CompanyController;
 
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+ Route::get('/', function () {
+     return view('welcome');
+ });
 
 Route::resource('companies', CompanyController::class);
+
+
+
+
+
+
+
